@@ -127,11 +127,10 @@
   },
   {
     "id": "phoenix_drink_fight_repeat",
-    "firstNightReminder": "Phoenix is woken and is asked if they want to use their ability, if they do mark them with No Ability and SuperNova reminders.",
-    "otherNightReminder": "Phoenix is woken if they still have their ability. If so Phoenix is asked if they want to use their ability, if they do mark them with No Ability and SuperNova reminders.",
+    "firstNightReminder": "Phoenix is woken and is asked if they want to use their ability, if they do mark them with SuperNova and their neighbors with Resurrecting at Dawn reminders.",
+    "otherNightReminder": "Phoenix is woken and is asked if they want to use their ability, if they do mark them with SuperNova and their neighbors with Resurrecting at Dawn reminders.",
     "reminders": [
       "SuperNova",
-      "No Ability",
       "Dead",
       "Resurrecting at Dawn",
       "Resurrecting at Dawn"
@@ -142,7 +141,7 @@
       "https://i.imgur.com/m8j4WmR.png"
     ],
     "team": "townsfolk",
-    "ability": "Once per game, at night, choose to become a Supernova: if you are selected by any player that you die. If you survive, your Good neighbors resurrect.",
+    "ability": "Each Night*, choose if you want to use your ability. If you are selected by any player: you die, otherwise, revive both of your neighbors.",
     "firstNight": 0,
     "otherNight": 6
   },
