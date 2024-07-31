@@ -141,7 +141,7 @@
       "https://i.imgur.com/m8j4WmR.png"
     ],
     "team": "townsfolk",
-    "ability": "Each Night*, choose if you want to use your ability. If you are selected by any player: you die, otherwise, revive both of your neighbors.",
+    "ability": "Each Night*, choose if you want to activate your ability. If you are selected by any player: you die, otherwise revive both of your neighbors.",
     "firstNight": 0,
     "otherNight": 6
   },
