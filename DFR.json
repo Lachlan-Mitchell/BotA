@@ -1,0 +1,458 @@
+[
+  {
+    "id": "_meta",
+    "name": "Drink, Fight, Repeat ",
+    "author": "Lachlan & Reuben"
+  },
+  {
+    "id": "dawnbreaker_drink_fight_repeat",
+    "firstNightReminder": "Dawn Breaker wakes up and chooses a player, if they are a townsfolk.",
+    "reminders": ["Reveal"],
+    "name": "Dawn Breaker",
+    "image": [
+      "https://i.imgur.com/vNVh8Zc.png",
+      "https://i.imgur.com/Ihr1un2.png"
+    ],
+    "team": "townsfolk",
+    "ability": "You start choosing a player: if they are a Townsfolk, they are revealed to the entire town square at Dawn.",
+    "firstNight": 21,
+    "otherNight": 0
+  },
+  {
+    "id": "visage_drink_fight_repeat",
+    "firstNightReminder": "Show Visage 3 characters, each of a different Role.",
+    "reminders": ["Knows", "Knows", "Knows"],
+    "setup": true,
+    "name": "Visage",
+    "image": [
+      "https://i.imgur.com/YtLLLxb.png",
+      "https://i.imgur.com/i8BgQmr.png"
+    ],
+    "team": "townsfolk",
+    "ability": "You start knowing 3 players, each is a different Role.[+0 or +1 Outsider]",
+    "firstNight": 22,
+    "otherNight": 0
+  },
+  {
+    "id": "io_drink_fight_repeat",
+    "firstNightReminder": "Io learns who their Tethered good player is.",
+    "otherNightReminder": "If Io's Tethered player died: kill Io instead.",
+    "reminders": ["Tether"],
+    "name": "Io",
+    "image": [
+      "https://i.imgur.com/8zkrXBd.png",
+      "https://i.imgur.com/IhPkkru.png"
+    ],
+    "team": "townsfolk",
+    "ability": "You start knowing 1 good player. If they die at night; you die instead.",
+    "firstNight": 20,
+    "otherNight": 17
+  },
+  {
+    "id": "tusk_drink_fight_repeat",
+    "firstNightReminder": "Tusk wakes and picks a player, this player is made drunk. If Tusk is made drunk the player chosen dies.",
+    "otherNightReminder": "Tusk wakes and picks a player, this player is made drunk. If Tusk is made drunk the player chosen dies.",
+    "reminders": ["Is Drunk"],
+    "name": "Tusk",
+    "image": [
+      "https://i.imgur.com/uZfGUXx.png",
+      "https://i.imgur.com/nH277ce.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each night, choose an alive player: they are Drunk until Dusk. If you are drunk, they die. You can't die.",
+    "firstNight": 18,
+    "otherNight": 7
+  },
+  {
+    "id": "ursa_drink_fight_repeat",
+    "firstNightReminder": "Ask Ursa to pick a player, add reminder token of Chosen 1 to the player and show them 4 characters that player might be to Ursa.",
+    "otherNightReminder": "Ask Ursa to pick a player, if the player has no 'Chosen' reminder in front of them, add the reminder Chosen 1 o the player and show Ursa 4 characters the player might be. if Chosen 1 reminder, update to Chosen 2, show two characters they might be, if the player has the Chosen 2, update to Chosen 3 and show 1 Character the player might be. If Chosen 3, show 1 player the character might be.",
+    "reminders": [
+      "Chosen 1",
+      "Chosen 2",
+      "Chosen 3",
+      "Chosen 1",
+      "Chosen 2",
+      "Chosen 3",
+      "Chosen 1",
+      "Chosen 2",
+      "Chosen 3",
+      "Chosen 1",
+      "Chosen 2",
+      "Chosen 3",
+      "Chosen 1",
+      "Chosen 2",
+      "Chosen 3",
+      "Chosen 1",
+      "Chosen 2",
+      "Chosen 3"
+    ],
+    "name": "Ursa",
+    "image": [
+      "https://i.imgur.com/hlawjvi.png",
+      "https://i.imgur.com/f77XlbA.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each night, choose a player: you learn 4 characters, 1 of which is correct. If you have select them before, the number of characters is halved.",
+    "firstNight": 23,
+    "otherNight": 16
+  },
+  {
+    "id": "centaurwarrunner_drink_fight_repeat",
+    "otherNightReminder": "Centaur Warrunner chooses a player if that player is good mark them both with a death shroud. They both die",
+    "reminders": ["Chose"],
+    "name": "Centaur Warrunner",
+    "image": [
+      "https://i.imgur.com/dwiQyit.png",
+      "https://i.imgur.com/sSBbVnX.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player: if they are good you both die.",
+    "firstNight": 0,
+    "otherNight": 14
+  },
+  {
+    "id": "pangolier_drink_fight_repeat",
+    "otherNightReminder": "Pangolier chooses a player & a character. If Pangolier gets the Role incorrect you die. If Pangolier get the character correct, they die.",
+    "reminders": ["Dies"],
+    "name": "Pangolier",
+    "image": [
+      "https://i.imgur.com/BWmML4q.png",
+      "https://i.imgur.com/30epkQx.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player & a character. If you get the Role incorrect you die. If you get the character correct, they die.",
+    "firstNight": 0,
+    "otherNight": 11
+  },
+  {
+    "id": "phoenix_drink_fight_repeat",
+    "firstNightReminder": "Phoenix is woken and is asked if they want to use their ability, if they do mark them with No Ability and SuperNova reminders.",
+    "otherNightReminder": "Phoenix is woken if they still have their ability. If so Phoenix is asked if they want to use their ability, if they do mark them with No Ability and SuperNova reminders.",
+    "reminders": [
+      "SuperNova",
+      "No Ability",
+      "Dead",
+      "Resurrecting at Dawn",
+      "Resurrecting at Dawn"
+    ],
+    "name": "Phoenix",
+    "image": [
+      "https://i.imgur.com/rH5Ad9o.png",
+      "https://i.imgur.com/m8j4WmR.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Once per game, at night, choose to become a Supernova: if you are selected by any player that you die. If you survive, your Good neighbors resurrect.",
+    "firstNight": 0,
+    "otherNight": 6
+  },
+  {
+    "id": "sven_drink_fight_repeat",
+    "firstNightReminder": "Wake the player and ask them if they would like to use their ability, If they use it no one will recieve false info tonight",
+    "otherNightReminder": "Wake the player and ask them if they would like to use their ability, if they no one can have negative effects",
+    "reminders": ["Chosen", "Doesn't Wake"],
+    "name": "Sven",
+    "image": [
+      "https://i.imgur.com/1JThW74.png",
+      "https://i.imgur.com/g0jzICi.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player: you learn their alignment. One of their neighbors doesn't wake tonight.",
+    "firstNight": 0,
+    "otherNight": 5
+  },
+  {
+    "id": "dazzle_drink_fight_repeat",
+    "reminders": ["Shallow Grave"],
+    "name": "Dazzle",
+    "image": [
+      "https://i.imgur.com/Cbavx3w.png",
+      "https://i.imgur.com/IkVy88b.png"
+    ],
+    "team": "townsfolk",
+    "ability": "During the day publicly declare you are Dazzle and that 1 person is protected until Dawn.",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "oracle_drink_fight_repeat",
+    "firstNightReminder": "Wake Oracle and ask them if they want to use their ability, if they do mark Oracle with No Ability and the player they chose with False Promise 1.",
+    "otherNightReminder": "Wake Oracle and ask them if they want to use their ability, if they do: mark Oracle with No Ability and the player they chose with False Promise 1. If Oracle has already used their ability update the reminder token to the next number to track how many nights the player has been protected.",
+    "reminders": [
+      "False Promise 1",
+      "False Promise 2",
+      "False Promise 3",
+      "To Die, No Ability"
+    ],
+    "name": "Oracle",
+    "image": [
+      "https://i.imgur.com/OYou5Rw.png",
+      "https://i.imgur.com/gb4bdbd.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Once per game at night choose a player. If this player should die in the next 3 days or 3 nights. They instead die 3 nights after this ability is used.",
+    "firstNight": 24,
+    "otherNight": 15
+  },
+  {
+    "id": "kunkka_drink_fight_repeat",
+    "otherNightReminder": "If Kunkka or his neighbors died yesterday or tonight mark them with 'Dies tomorrow night' they are drunk today and tomorrow. One night after the reminder is placed, that player dies.",
+    "reminders": [
+      "Dies tomorrow Dawn",
+      "Dies tomorrow Dawn",
+      "Dies tomorrow Dawn",
+      "Dies tomorrow Dusk",
+      "Dies tomorrow Dusk",
+      "Dies tomorrow Dusk"
+    ],
+    "name": "Kunkka",
+    "image": [
+      "https://i.imgur.com/9aU5jrT.png",
+      "https://i.imgur.com/MYZO6YJ.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Kunkka and their neighbors die one day later. They are drunk for their extra day.",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "meepo_drink_fight_repeat",
+    "firstNightReminder": "Wake all sober Meepos and point to all Meepos",
+    "otherNightReminder": "If a meepo died, all meepo's die",
+    "setup": true,
+    "name": "Meepo",
+    "image": [
+      "https://i.imgur.com/R7TaXnV.png",
+      "https://i.imgur.com/9gzHhIF.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Meepos wake up at night and see each other. All Meepos die if one dies.[+1-3 Meepos]",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "firstNight": 19,
+    "otherNight": 0
+  },
+  {
+    "id": "alchemist_drink_fight_repeat",
+    "otherNightReminder": "If Alchemist died today or tonight, put the Is Drunk tokens on his neighbours. If Alchemist was drunk, instead wake a good player and tell them they are evil.",
+    "reminders": ["Is Evil", "Is Drunk", "Is Drunk"],
+    "name": "Alchemist",
+    "image": [
+      "https://i.imgur.com/0xsWawf.png",
+      "https://i.imgur.com/55nSTuu.png"
+    ],
+    "team": "outsider",
+    "ability": "When you die both your neighbours are drunk until Dusk. If you are drunk, one good player becomes evil instead.",
+    "firstNight": 0,
+    "otherNight": 2
+  },
+  {
+    "id": "bristleback_drink_fight_repeat",
+    "otherNightReminder": "If Bristleback was nominated during the day, make every other non-Demon palyer drunk.",
+    "reminders": [
+      "Is Drunk",
+      "Is Drunk",
+      "Is Drunk",
+      "Is Drunk",
+      "Is Drunk",
+      "Is Drunk",
+      "Is Drunk",
+      "Is Drunk",
+      "Is Drunk",
+      "Is Drunk",
+      "Is Drunk",
+      "Is Drunk",
+      "Is Drunk"
+    ],
+    "name": "Bristleback",
+    "image": [
+      "https://i.imgur.com/Zj0AX2A.png",
+      "https://i.imgur.com/NAJtD8M.png"
+    ],
+    "team": "outsider",
+    "ability": "If you are nominated all other non-Demon players are Drunk until Dawn. You can't die.",
+    "firstNight": 0,
+    "otherNight": 1
+  },
+  {
+    "id": "eldertitan_drink_fight_repeat",
+    "otherNightReminder": "Do not wake the player who nominated Elder Titan.",
+    "reminders": ["Doesn't Wake", "Doesn't Wake"],
+    "name": "Elder Titan",
+    "image": [
+      "https://i.imgur.com/UUFg26q.png",
+      "https://i.imgur.com/U7CHYa9.png"
+    ],
+    "team": "outsider",
+    "ability": "The player who nominated you does not wake this night. If you nominate yourself, your alive good neighbours don't wake this night.",
+    "firstNight": 0,
+    "otherNight": 3
+  },
+  {
+    "id": "wraithking_drink_fight_repeat",
+    "otherNightReminder": "Resurrect and remove Token if resurrecting. If Wraith King died at night, add the Resurrecting at Dawn reminder token.",
+    "reminders": [
+      "Ability Active",
+      "Ability Active",
+      "Ability Active",
+      "Resurrecting at Dawn",
+      "Resurrecting at Dusk"
+    ],
+    "name": "Wraith King",
+    "image": [
+      "https://i.imgur.com/3rVqIvd.png",
+      "https://i.imgur.com/RUaOQlq.png"
+    ],
+    "team": "outsider",
+    "ability": "Minions can still use their abilities when dead. You come back to life 1 day after dying.",
+    "firstNight": 0,
+    "otherNight": 18
+  },
+  {
+    "id": "abaddon_drink_fight_repeat",
+    "otherNightReminder": "Abaddon can choose a player, that player dies and so does Abaddon",
+    "reminders": ["Poisoned", "Died", "Died"],
+    "name": "Abaddon",
+    "image": [
+      "https://i.imgur.com/Mqtaezi.png",
+      "https://i.imgur.com/F0Yjrdo.png"
+    ],
+    "team": "minion",
+    "ability": "Each night*, you may choose a player; they die and you die. You can't die. If your ability prevents you death, you are poisoned until Dusk.",
+    "firstNight": 0,
+    "otherNight": 13
+  },
+  {
+    "id": "axe_drink_fight_repeat",
+    "reminders": [],
+    "name": "Axe",
+    "image": [
+      "https://i.imgur.com/HRLguUp.png",
+      "https://i.imgur.com/z2GQvTS.png"
+    ],
+    "team": "minion",
+    "ability": "Each day, if there are at least 3 votes on a nominee, you can publically execute them immediately. They die even if they could not.",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "phantomassassin_drink_fight_repeat",
+    "otherNightReminder": "Phantom Assassing chooses a player, place a Died reminder token on them.",
+    "reminders": ["Died", "Died"],
+    "name": "Phantom Assassin",
+    "image": [
+      "https://i.imgur.com/nxMa5pf.png",
+      "https://i.imgur.com/e6cFW4j.png"
+    ],
+    "team": "minion",
+    "ability": "Once per game, at night*, choose a player: they die. You might register as good \u0026 as an Outsider.",
+    "firstNight": 0,
+    "otherNight": 12
+  },
+  {
+    "id": "tidehunter_drink_fight_repeat",
+    "reminders": [],
+    "name": "Tidehunter",
+    "image": [
+      "https://i.imgur.com/CtLMUHM.png",
+      "https://i.imgur.com/vWbekk6.png"
+    ],
+    "team": "minion",
+    "ability": "Once per game, at day, publically declare you are Tidehunter: the day ends immediately. You can't die from executions.",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "brewmaster_drink_fight_repeat",
+    "firstNightReminder": "Brewmaster chooses 1 player: they are drunk, mark them with the Brew Drunk reminder token",
+    "otherNightReminder": "Brewmaster can use their Once Off and turn up to Base Minions + 1 players that are Brew Drunk into Minions.",
+    "reminders": [
+      "Brew Drunk",
+      "Brew Drunk",
+      "Brew Drunk",
+      "Brew Drunk",
+      "Brew Drunk",
+      "Brew Drunk",
+      "Brew Drunk",
+      "Brew Drunk",
+      "Died"
+    ],
+    "name": "Brewmaster",
+    "image": [
+      "https://i.imgur.com/JQpFrKx.png",
+      "https://i.imgur.com/eBvsyfh.png"
+    ],
+    "team": "demon",
+    "setup": true,
+    "ability": "Each night, Brewmaster selects a player; they are drunk. Once per game turn all Brew-drunk players into a Minion of your choice. Each night*, a player might die. [No Minions]",
+    "firstNight": 17,
+    "otherNight": 8
+  },
+  {
+    "id": "primalbeast_drink_fight_repeat",
+    "otherNightReminder": "Primal Beast chooses a player: they will die. Put a Does Not Wake reminder token on their neighbours.",
+    "reminders": ["Died", "Died", "Does Not Wake", "Does Not Wake"],
+    "name": "Primal Beast",
+    "image": [
+      "https://i.imgur.com/7pf2M8F.png",
+      "https://i.imgur.com/fIKks3N.png"
+    ],
+    "team": "demon",
+    "ability": "Each night*, choose a player to slam: they die. Their neighbours don't wake tonight.",
+    "firstNight": 0,
+    "otherNight": 4
+  },
+  {
+    "id": "tiny_drink_fight_repeat",
+    "firstNightReminder": "Increase Tiny's kill limit counter.",
+    "otherNightReminder": "Increase Tiny's kill limit counter. Let them know how many people to choose. Kill them all.",
+    "reminders": [
+      "0 Kill Limit",
+      "1 Kill Limit",
+      "2 Kill Limit",
+      "3 Kill Limit",
+      "4 Kill Limit",
+      "Died",
+      "Died",
+      "Died",
+      "Died",
+      "Died"
+    ],
+    "name": "Tiny",
+    "image": [
+      "https://i.imgur.com/IMldhmF.png",
+      "https://i.imgur.com/xJl7oAg.png"
+    ],
+    "team": "demon",
+    "ability": "Each night, choose a player: they die. The next night you choose 1 more player than tonight.",
+    "firstNight": 0,
+    "otherNight": 10
+  },
+  {
+    "id": "undying_drink_fight_repeat",
+    "firstNightReminder": "Undying chooses 1 player: they are poisoned. Mark them with the Tombstone reminder token.",
+    "otherNightReminder": "Undying chooses 1 player: they are poisoned. Mark them with the Poisoned reminder token, they may die tonight.",
+    "reminders": [
+      "Tombstone",
+      "Poisoned",
+      "Poisoned",
+      "Died",
+      "Died",
+      "Resurrecting at Dawn",
+      "Resurrecting at Dusk"
+    ],
+    "name": "Undying",
+    "image": [
+      "https://i.imgur.com/dwhbkEB.png",
+      "https://i.imgur.com/vB0Q9gZ.png"
+    ],
+    "team": "demon",
+    "ability": "Each night*, choose a player, they are poisoned until dusk and may die. You start by choosing a player: they are poisoned. You keep reviving until they are dead. You lose when they die.",
+    "firstNight": 16,
+    "otherNight": 9
+  }
+]

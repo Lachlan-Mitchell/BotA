@@ -1,0 +1,400 @@
+[
+  {
+    "id": "_meta",
+    "name": "Fear the Demon",
+    "author": "Lachlan & Reuben"
+  },
+  {
+    "id": "lonedruid_fear_the_demon",
+    "firstNightReminder": "Show Lone Druid their spirit bear, show that players character.",
+    "reminders": ["Spirit bear"],
+    "name": "Lone Druid",
+    "image": [
+      "https://i.imgur.com/6eCfB0N.png",
+      "https://i.imgur.com/5mliYZJ.png"
+    ],
+    "team": "townsfolk",
+    "ability": "At the start of the game the story teller selects a Townsfolk player, that player becomes the Spirit Bear, if The spirit bear is chosen by an evil ability. after the ability occurs, the evil player is in fear of the spirit bear.",
+    "firstNight": 21
+  },
+  {
+    "id": "pugna_fear_the_demon",
+    "firstNightReminder": "Give this player one of two demon candidates (One is true one is false)",
+    "reminders": ["Silencer", "Chen", "Queen of Pain", "Terrorblade"],
+    "name": "Pugna",
+    "image": [
+      "https://i.imgur.com/JSrfG8L.png",
+      "https://i.imgur.com/Z89JXBp.png"
+    ],
+    "team": "townsfolk",
+    "ability": "At the start of the game, find out one of two Demons which are in play.",
+    "firstNight": 22
+  },
+  {
+    "id": "sniper_fear_the_demon",
+    "firstNightReminder": "Ask this player to pick a player and show a number between 1, 2, 3",
+    "otherNightReminder": "Check to see if the character picked died today and that it is the correct  day. If so wake sniper, show them the charcter of the selected players and one of the neighbours characters (Neighbouring the selection not snipers neighbours)",
+    "reminders": ["Sniped for day 1", "Sniped for day 2", "sniped for day 3"],
+    "name": "Sniper",
+    "image": [
+      "https://i.imgur.com/KvLyJyf.png",
+      "https://i.imgur.com/KhoBy44.png"
+    ],
+    "team": "townsfolk",
+    "ability": "At the start of the game choose a player and a number between 1 and 3. If they die on the day of the number you selected you learn their role and one of their neighbours.",
+    "firstNight": 23,
+    "otherNight": 15
+  },
+  {
+    "id": "bane_fear_the_demon",
+    "firstNightReminder": "Bane points to a player. Show 1 good & 1 evil character token, 1 of which is their character. Add the reminder token: Fears Bane, to the selected player. Wake that player and let them know they fear the person playing bane",
+    "otherNightReminder": "Bane points to a player. Show 1 good & 1 evil character token, 1 of which is their character. Add the reminder token: Fears Bane, to the selected player. Wake that player and let them know they fear the person playing bane",
+    "reminders": ["Fears Bane "],
+    "remindersGlobal": ["Fear"],
+    "name": "Bane",
+    "image": [
+      "https://i.imgur.com/TPp7EkN.png",
+      "https://i.imgur.com/Syrhs1Z.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good & 1 evil character, 1 of which is correct. They fear you today.",
+    "firstNight": 25,
+    "otherNight": 18
+  },
+  {
+    "id": "clockwerk_fear_the_demon",
+    "firstNightReminder": "Clockwerk chooses a player, show them 0, 1, 2, 3 representing the number of good players between the payer selected and their neighbours",
+    "otherNightReminder": "Clockwerk chooses a player, show them 0, 1, 2, 3 representing the number of good players between the payer selected and their neighbours",
+    "reminders": ["Clockwerk Pick"],
+    "name": "Clockwerk",
+    "image": [
+      "https://i.imgur.com/qaFtOsD.png",
+      "https://i.imgur.com/eU4ZwTY.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each night select a player, you recieve the number of good players you see from the person you chose and their neighbours.",
+    "firstNight": 26,
+    "otherNight": 19
+  },
+  {
+    "id": "darkseer_fear_the_demon",
+    "firstNightReminder": "Dark Seer chooses a player, if that player would wake up tonight  they wake up next.",
+    "otherNightReminder": "Dark Seer chooses a player, if that player would wake up tonight  they wake up next.",
+    "reminders": ["Next Wake Up"],
+    "name": "Dark Seer",
+    "image": [
+      "https://i.imgur.com/QNzHAu8.png",
+      "https://i.imgur.com/55HD2gu.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Choose a player they wake up next tonight (darkseer always goes first)",
+    "firstNight": 12,
+    "otherNight": 2
+  },
+  {
+    "id": "omniknight_fear_the_demon",
+    "firstNightReminder": "Omniknight selects a player they are safe from negative effects tonight. This player can still die",
+    "otherNightReminder": "Omniknight selects a player they are safe from negative effects tonight. This player can still die",
+    "reminders": ["Safe from Neg effects"],
+    "name": "Omniknight",
+    "image": [
+      "https://i.imgur.com/5cGqRja.png",
+      "https://i.imgur.com/wdk1Nwy.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each night choose a player; remove negative effects from them.",
+    "firstNight": 13,
+    "otherNight": 3
+  },
+  {
+    "id": "rubick_fear_the_demon",
+    "firstNightReminder": "Rubick wakes up and chooses a player, they then gain the ability of that player until dusk, if this is a night ability keep rubick awake and have them perform it. If ruick chose an evil player you may make rubick drunk. Consider simulaing the bluff the evil player is bluffing as.",
+    "otherNightReminder": "Rubick wakes up and chooses a player, they then gain the ability of that player until dusk, if this is a night ability keep rubick awake and have them perform it. If ruick chose an evil player you may make rubick drunk. Consider simulaing the bluff the evil player is bluffing as.",
+    "reminders": ["Copy"],
+    "name": "Rubick",
+    "image": [
+      "https://i.imgur.com/0XxWslS.png",
+      "https://i.imgur.com/C7Jdexq.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each night select a player, perform their ability (without finding out what it is). If you selected an evil player, you might become drunk until dusk.",
+    "firstNight": 24,
+    "otherNight": 17
+  },
+  {
+    "id": "snapfire_fear_the_demon",
+    "firstNightReminder": "Snapfire wakes and picks a player, this player is assigned a cookie reminder. if that player was evil, wake that player and let them know they have a cookie on them.",
+    "otherNightReminder": "Snapfire wakes and picks a player, this player is assigned a cookie reminder. if that player was evil, wake that player and let them know they have a cookie on them. If there are atleast 3 cookies in play show the characters of all the players with a cookie to Snapfire, indicating who is each character. Dead players loose their cookies,  if snapfire chooses a known dead player, ask them to reselect.",
+    "reminders": ["Cookie", "Cookie", "Cookie", "Cookie", "Cookie", "Cookie"],
+    "name": "Snapfire",
+    "image": [
+      "https://i.imgur.com/iGwcc3g.png",
+      "https://i.imgur.com/JjirCzU.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each night choosd a player; they recieve a Cookie. If there are at least 3 Cookies, you learn all Characters holding at least 1 Cookie. Evil players know when they receive a Cookie.",
+    "firstNight": 27,
+    "otherNight": 21
+  },
+  {
+    "id": "witchdoctor_fear_the_demon",
+    "firstNightReminder": "Witch Doctor chooses a player and a direction, show them the number of people in that direction that match the same role as the person selected.e.g how many townsfolk, minions, *if the person picked and then the next person in line is different type. The player would receive a 1)",
+    "otherNightReminder": "Witch Doctor chooses a player and a direction, show them the number of people in that direction that match the same role as the person selected.e.g how many townsfolk, minions, *if the person picked and then the next person in line is different type. The player would receive a 1)",
+    "reminders": ["WD Select Left", "WD Select Right"],
+    "name": "Witch Doctor",
+    "image": [
+      "https://i.imgur.com/qkHqlff.png",
+      "https://i.imgur.com/AMnF1PN.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each night, Choose a player; then point left or right. You learn how many in a players in a row have the same Role.",
+    "firstNight": 28,
+    "otherNight": 22
+  },
+  {
+    "id": "skywrathmage_fear_the_demon",
+    "otherNightReminder": "Skywrath Mage selects a player. If that player is Vengeful Spirit show them the selected players character (Vengeful Spirit) and then show them the player and Character of each person Vengeful Spirit has made mad. If Skywrath Mage died (before finding Vengeful Spirit), wake Venegful Spirit and tell them they are now evil. Players made mad due to Vengeful Spirit may be killed.",
+    "reminders": ["Died b4 finding Venge", "Found Venge"],
+    "setup": true,
+    "name": "Skywrath Mage",
+    "image": [
+      "https://i.imgur.com/wMvDat6.png",
+      "https://i.imgur.com/wyXNIQO.png"
+    ],
+    "team": "townsfolk",
+    "ability": "[+Vengeful Spirit] Each night*, choose a player; if you find Vengeful Spirit, you learn the characters of all the players Vengeful Spirit made mad. If you die; Vengeful Spirit becomes Evil and those who were made mad by her might die.",
+    "otherNight": 20
+  },
+  {
+    "id": "kotl_fear_the_demon",
+    "firstNightReminder": "Wake the player and ask them if they would like to use their ability, If they use it no one will recieve false info tonight",
+    "otherNightReminder": "Wake the player and ask them if they would like to use their ability, if they no one can have negative effects",
+    "reminders": ["No Ability", "Everyone True Info"],
+    "name": "KOTL",
+    "image": [
+      "https://i.imgur.com/Md5loZY.png",
+      "https://i.imgur.com/1MRYmNa.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Once per game at night All players are safe from drunk and poisoning that night.",
+    "firstNight": 14,
+    "otherNight": 4
+  },
+  {
+    "id": "antimage_fear_the_demon",
+    "firstNightReminder": "Anti Mage learns how many people selected him tonight",
+    "otherNightReminder": "Anti Mage learns how many people selected him tonight",
+    "reminders": ["One", "Two", "Three", "Four", "Five", "Six"],
+    "name": "Anti Mage",
+    "image": [
+      "https://i.imgur.com/bvMYdJi.png",
+      "https://i.imgur.com/h1WbjE0.png"
+    ],
+    "team": "townsfolk",
+    "ability": "You are immune to status effects. You learn how many players picked you each night.",
+    "firstNight": 29,
+    "otherNight": 23
+  },
+  {
+    "id": "lycan_fear_the_demon",
+    "otherNightReminder": "Lycan selects a player, this player will register as Evil, if someone views their character show the Werewolf token.",
+    "reminders": [
+      "Registers as Evil",
+      "Werewolf",
+      "Registers as Evil",
+      "Werewolf",
+      "Registers as Evil",
+      "Werewolf",
+      "Registers as Evil",
+      "Werewolf",
+      "Registers as Evil",
+      "Werewolf",
+      "Registers as Evil",
+      "Werewolf",
+      "Registers as Evil",
+      "Werewolf"
+    ],
+    "name": "Lycan",
+    "image": [
+      "https://i.imgur.com/FwDREh7.png",
+      "https://i.imgur.com/K5bfedg.png"
+    ],
+    "team": "outsider",
+    "ability": "Each night* pick a new player; they now register as Evil, and appear as a Werewolf (!?) to other players. If all alive players are werewolves Lycan wins, and wins alone.",
+    "otherNight": 16
+  },
+  {
+    "id": "werewolf_fear_the_demon",
+    "name": "Werewolf",
+    "image": [
+      "https://i.imgur.com/EYaZrWd.png",
+      "https://i.imgur.com/RbmiLsc.png"
+    ],
+    "team": "outsider",
+    "ability": "Awoooh!"
+  },
+  {
+    "id": "vengefulspirit_fear_the_demon",
+    "firstNightReminder": "Wake Vengeful Spirit and assign a Townsfolk character for them to be mad as",
+    "otherNightReminder": "Vengeful Spirit Chooses an alive player, they become the character and alignment of the selected player. The player selected becomes mad that they are their old character. Wake the selected player  tell them they are now Venge, and mad.",
+    "reminders": ["Starting Venge Mad", "Venge Mad", "Venge Mad", "Venge Mad"],
+    "name": "Vengeful Spirit",
+    "image": [
+      "https://i.imgur.com/hFUP2ca.png",
+      "https://i.imgur.com/yROW3sV.png"
+    ],
+    "team": "outsider",
+    "ability": "At the start of the game you are mad as a Townsfolk character. Each night(*), Choose an alive player you swap characters and alignments with them. They are mad as the character they were.",
+    "firstNight": 11,
+    "otherNight": 14
+  },
+  {
+    "id": "chaosknight_fear_the_demon",
+    "otherNightReminder": "If Chaos Knight died, select up to 3 players to not wake up tonight",
+    "reminders": ["Died Today", "Doesn't Wake", "Doesn't Wake", "Doesn't Wake"],
+    "name": "Chaos Knight",
+    "image": [
+      "https://i.imgur.com/3GjpSVJ.png",
+      "https://i.imgur.com/4Rggr5y.png"
+    ],
+    "team": "outsider",
+    "ability": "When you die 1 - 3 players dont wake up tonight.",
+    "otherNight": 13
+  },
+  {
+    "id": "enchantress_fear_the_demon",
+    "reminders": ["Selected Tonight", "Ench Drunk"],
+    "name": "Enchantress",
+    "image": [
+      "https://i.imgur.com/c4fFqG8.png",
+      "https://i.imgur.com/0ieyAl6.png"
+    ],
+    "team": "outsider",
+    "ability": "After the first person who selects you each night, they might become drunk."
+  },
+  {
+    "id": "darkwillow_fear_the_demon",
+    "firstNightReminder": "Dark Willow chooses a player, that player is afraid of their neighbours",
+    "otherNightReminder": "Dark Willow chooses a player, that player is afraid of their neighbours",
+    "reminders": ["Afraid of neighbours"],
+    "name": "Dark Willow",
+    "image": [
+      "https://i.imgur.com/Fry2SR1.png",
+      "https://i.imgur.com/w9umpaI.png"
+    ],
+    "team": "minion",
+    "ability": "Each night choose a player they are afraid (applies fear) of their neighbours.",
+    "firstNight": 20,
+    "otherNight": 12
+  },
+  {
+    "id": "shadowdemon_fear_the_demon",
+    "firstNightReminder": "Shadow Demon Chooses a player they register as Evil until dusk, assign reminder token to them",
+    "otherNightReminder": "Shadow Demon Chooses a player they register as Evil until dusk, assign reminder token to them",
+    "reminders": ["Registers as Evil", "Registers as Evil"],
+    "setup": true,
+    "name": "Shadow Demon",
+    "image": [
+      "https://i.imgur.com/EwGLgsE.png",
+      "https://i.imgur.com/eY5cT5s.png"
+    ],
+    "team": "minion",
+    "ability": "[+1 Outsider] Each night choose a player; they register as Evil until dusk. You might register as Good.",
+    "firstNight": 19,
+    "otherNight": 11
+  },
+  {
+    "id": "grimstroke_fear_the_demon",
+    "firstNightReminder": "Grimstroke chooses two players, place a reminder token on each to show that they are linked",
+    "otherNightReminder": "Grimstroke chooses two players, place a reminder token on each to show that they are linked",
+    "reminders": ["Soul Binded", "Soul Binded"],
+    "name": "Grimstroke",
+    "image": ["https://i.imgur.com/yN0rVmc.png"],
+    "team": "minion",
+    "ability": " Each night choose 2 players; any action that would occur to one also occurs to the other excluding execution.",
+    "firstNight": 15,
+    "otherNight": 5
+  },
+  {
+    "id": "venomancer_fear_the_demon",
+    "firstNightReminder": "Wake Venomancer and ask if they would like to use their ability. if they say yes, ask them to select a player . The selected player and their neighbours are posioned for two days and two nights, mark venomancer as no ability.",
+    "otherNightReminder": "Wake Venomancer and ask if they would like to use their ability. if they say yes, ask them to select a player . The selected player and their neighbours are posioned for two days and two nights, mark venomancer as no ability. If Venomancer had used their abilty last night change Posion 2 to Poison 1",
+    "reminders": [
+      "Poision 2",
+      "Poision 2",
+      "Poision 2",
+      "Poision 1",
+      "Poision 1",
+      "Poision 1",
+      "No ability"
+    ],
+    "name": "Venomancer",
+    "image": [
+      "https://i.imgur.com/OJvCnj9.png",
+      "https://i.imgur.com/4XO4AGS.png"
+    ],
+    "team": "minion",
+    "ability": "Once per game choose a player; them and their neighbours become poisoned for two nights and two days.",
+    "firstNight": 18,
+    "otherNight": 10
+  },
+  {
+    "id": "chen_fear_the_demon",
+    "firstNightReminder": "Chen Chooses two players, the first is feard of the second. If the second player does not die during the day then both players die at night",
+    "otherNightReminder": "Check If the second player died yesterday. if they didnt die during the day then both players that Chen selected the previous night die now.Chen Chooses two players, the first is feard of the second. ",
+    "reminders": ["Chen 1", "Chen 2", "Fear"],
+    "remindersGlobal": ["Fear"],
+    "name": "Chen",
+    "image": [
+      "https://i.imgur.com/NxoWqFw.png",
+      "https://i.imgur.com/9T0wSHq.png"
+    ],
+    "team": "demon",
+    "ability": "Each night you make a player fear, another player. If that person they fear doesn't die they both die.",
+    "firstNight": 17,
+    "otherNight": 8
+  },
+  {
+    "id": "queenofpain_fear_the_demon",
+    "firstNightReminder": "Queen Of Pain chooses two players, the first player is posioned, then is woken to be shown they fear the second player.",
+    "otherNightReminder": "Kill the player who was chosen by Queen of Pain first last night. Queen Of Pain chooses two players, the first player is posioned, then is woken to be shown they fear the second player.",
+    "reminders": ["Posioned", "Fear", "Dies tomorrow", "Afraid of"],
+    "name": "Queen Of Pain",
+    "image": [
+      "https://i.imgur.com/UXqYew5.png",
+      "https://i.imgur.com/YXrbCyB.png"
+    ],
+    "team": "demon",
+    "ability": "Each night choose two players, the first player is posioned and fears the second player. The first player you chose last night dies.",
+    "firstNight": 16,
+    "otherNight": 7
+  },
+  {
+    "id": "silencer_fear_the_demon",
+    "otherNightReminder": "Kill the player with the Spoke First Reminder. Silencer chooses a player to fear another player. wake the selected player and let them know who they fear.",
+    "reminders": ["Spoke first", "Fear"],
+    "setup": true,
+    "name": "Silencer",
+    "image": [
+      "https://i.imgur.com/t6AyiqG.png",
+      "https://i.imgur.com/dfWc7KA.png"
+    ],
+    "team": "demon",
+    "ability": "[+1 Outsider] Each night(*) choose a player to fear another player. The first Good player to speak each day dies during the night. ",
+    "otherNight": 9
+  },
+  {
+    "id": "terrorblade_fear_the_demon",
+    "otherNightReminder": "Terrorbalde chooses 3 people. If half or less of the players are  alive terrorblade chooses a 4th player to die.",
+    "reminders": ["Died", "Poisoned", "Fear", "Died"],
+    "setup": true,
+    "name": "Terrorblade",
+    "image": [
+      "https://i.imgur.com/HGVNh8M.png",
+      "https://i.imgur.com/FtTTpxP.png"
+    ],
+    "team": "demon",
+    "ability": "[-1 Minion] Each night(*) choose 3 players,first one chosen dies, second one is poisoned and  third one is fears the second player. When half or less of players are alive. Choose a 4th player, they die.",
+    "otherNight": 6
+  }
+]
